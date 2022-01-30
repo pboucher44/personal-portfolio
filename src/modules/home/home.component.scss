@@ -1,0 +1,23 @@
+.translator {
+    position: fixed;
+    right: 6.5vw;
+    top: 8.5vh;
+
+    .disabled {
+        opacity: 0.5;
+    }
+}
+
+
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+app-welcome {
+    height: 100%;
+    width: 100%;
+}
