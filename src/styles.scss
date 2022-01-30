@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Radio Grotesk;
+    src: url("/shared/assets/font/PPRadioGrotesk-Regular.otf") format("opentype");
+}
+
+@import './shared/assets/scss/variable';
+@import './shared/assets/scss/base';

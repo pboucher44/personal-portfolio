@@ -1,0 +1,57 @@
+body {
+    background-color: var(--color-secondary);
+}
+
+h1 {
+    font-family: Radio Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 84px;
+
+    letter-spacing: 1px;
+
+    color: var(--color-primary);
+}
+
+h2 {
+    font-family: Radio Grotesk;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 75px;
+    
+    letter-spacing: 1px;
+
+    color: var(--color-primary);
+}
+
+h3 {
+    font-family: Radio Grotesk;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 54px;
+
+    color: var(--color-primary);
+}
+
+h4 {
+    font-family: Radio Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: var(--color-primary);
+}
+
+p {
+    font-family: Radio Grotesk;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: var(--color-primary);
+}
