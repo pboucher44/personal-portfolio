@@ -16,7 +16,7 @@ h1 {
     height: fit-content;
     line-height: 9vh;
 
-    letter-spacing: 1px;
+    letter-spacing: 0.05em;
 
     color: var(--color-primary);
 }
@@ -29,7 +29,7 @@ h2 {
     height: fit-content;
     line-height: 8vh;
     
-    letter-spacing: 1px;
+    letter-spacing: 0.05em;
 
     color: var(--color-primary);
 }
@@ -42,6 +42,8 @@ h3 {
     height: fit-content;
     line-height: 5.7vh;
 
+    letter-spacing: 0.05em;
+
     color: var(--color-primary);
 }
 
@@ -53,6 +55,8 @@ h4 {
     height: fit-content;
     line-height: 3.8vh;
 
+    letter-spacing: 0.05em;
+
     color: var(--color-primary);
 }
 
@@ -63,6 +67,8 @@ p {
     font-size: 1.6vh;
     height: fit-content;
     line-height: 1.9vh;
+
+    letter-spacing: 0.05em;
 
     color: var(--color-primary);
 }
