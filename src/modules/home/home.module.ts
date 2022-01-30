@@ -7,11 +7,13 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

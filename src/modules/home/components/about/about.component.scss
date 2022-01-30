@@ -1,0 +1,45 @@
+section {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-primary);
+
+    .centered {
+        width: 50vw;
+
+        display: flex;
+        flex-direction: column;
+
+        h2, h4, p {
+            color: var(--color-secondary);
+        }
+
+        h2 {
+            margin-bottom: 0;
+
+            text-transform: uppercase;
+        }
+
+        h4 {
+            margin-top: 5.3vh;
+            margin-bottom: 5.3vh;
+        }
+
+        .side-render {
+            display: flex;
+        }
+
+        p {
+            width: 46%;
+            margin-top: 0;
+
+            &:nth-child(1) {
+                margin-right: 6%;
+            }
+        }
+    }
+}

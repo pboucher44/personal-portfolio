@@ -2,5 +2,11 @@
     "home": {
         "title": "Pierre Boucher",
         "job": "developer"
+    },
+    "about": {
+        "title":"I'm Pierre, young developer aspiring to become a technical leader.",
+        "under-title": "Development is for me a passion in which I flourish. It's a practice I discovered in college via site zero and pushed to engineering school where I graduated and was full of resources.",
+        "first-content": "During my years in engineering school at EPSI, I was able to do a three-year work-study program with Sopra Steria as a full-stack developer for the SNCF. I learned to develop web applications via Angular, while keeping a back vision by learning Java. It was very complex for me at the beginning since a good quality of code was required. But I loved it, I loved learning things and being in contact with passionate people. So when I saw their profiles, I wanted to be in their shoes and become a key person in the development of applications for the company.",
+        "second-content": "As I like to accompany people in their projects, I launched myself as a mentor to help students discover the world of programming. It is for me an experience that allows me to validate the fact that I want to transmit my knowledge by emphasizing the popularization in order not to leave anyone aside."
     }
 }
