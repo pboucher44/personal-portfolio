@@ -8,12 +8,18 @@ import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AboutComponent } from './components/about/about.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { SpecialitiesComponent } from './components/specialities/specialities.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     WelcomeComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent,
+    SpecialitiesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

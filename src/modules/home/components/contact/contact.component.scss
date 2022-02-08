@@ -1,0 +1,51 @@
+section {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-primary);
+
+    h1, p {
+        color: white;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        .text {
+            border: 2px solid #EDEDED;
+            box-sizing: border-box;
+            border-radius: 2px;
+            background: #423786;
+        }
+
+        .check {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -o-appearance: none;
+            appearance: none;
+
+            border: 2px solid #EDEDED;
+            box-sizing: border-box;
+            border-radius: 2px;
+            background: #423786;
+
+            width: 20px;
+            height: 20px;
+        }
+
+        .check:checked {
+            background: #EDEDED;
+        }
+
+        span {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+}
