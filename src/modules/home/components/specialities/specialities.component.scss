@@ -1,63 +1,63 @@
 section {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .centered {
-    height: 100%;
-    width: 100%;
-    display: flex;
+  height: 100%;
+  width: 100%;
+  display: flex;
 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    margin: 0;
+  }
+
+  div {
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
-    h1 {
-        margin: 0;
-    }
+    width: 80%;
+  }
 
-    div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
-    }
-
-    div:hover {
-        p {
-            font-size: 15vh;
-            color: var(--color-primary);
-            transition: font-size 1s, color 1s;
-        }
-
-        svg {
-            fill: var(--color-primary);
-            height: 17vh;
-            width: 17vh;
-            transition: height 1s, width 1s;
-        }
-    }
-
+  div:hover {
     p {
-        display: inline-block;
-        font-weight: 700;
-        font-size: 8.5vh;
-
-        color: var(--color-secondary);
-
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-        line-height: 8.5vh;
-
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: var(--color-primary);
-
-        margin-right: 6%;
-
-        transition: font-size 1s, color 1s;
+      font-size: 15vh;
+      color: var(--color-primary);
+      transition: font-size 1s, color 1s;
     }
 
     svg {
-        transition: height 1s, width 1s;
+      fill: var(--color-primary);
+      height: 17vh;
+      width: 17vh;
+      transition: height 1s, width 1s;
     }
+  }
+
+  p {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 8.5vh;
+
+    color: var(--color-secondary);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    line-height: 8.5vh;
+
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: var(--color-primary);
+
+    margin-right: 6%;
+
+    transition: font-size 1s, color 1s;
+  }
+
+  svg {
+    transition: height 1s, width 1s;
+  }
 }

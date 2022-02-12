@@ -1,27 +1,31 @@
-<section>
-    <div class="centered">
-        <h1>{{ 'contact.title' | translate }}</h1>
-        <form>
-            <span>
-                <input class="text" type="text" [placeholder]="'contact.title' | translate"/>
-                <input class="text" type="text" [placeholder]="'contact.title' | translate"/>
-            </span>
-            <input class="text" type="text" [placeholder]="'contact.title' | translate"/>
-            <textarea class="text" type="text" [placeholder]="'contact.title' | translate"></textarea>
-            <span>
-                <input class="check" type="checkbox"/>
-                <p>{{ 'contact.title' | translate }}</p>
-            </span>
-            <button>Contact me</button>
-        </form>
+<section class="contact-centered">
+  <div class="contact-centered">
+    <h1>{{ 'contact.title' | translate }}</h1>
+    <form>
+      <span>
+        <input class="text" type="text" [placeholder]="'contact.title' | translate"/>
+        <input class="text" type="text" [placeholder]="'contact.title' | translate"/>
+      </span>
+      <input class="text full-width" type="text" [placeholder]="'contact.title' | translate"/>
+      <textarea class="text full-width" [placeholder]="'contact.title' | translate"></textarea>
+      <span class="left-align-privacy">
+        <input class="check" type="checkbox"/>
+        <p>{{ 'contact.title' | translate }}</p>
+      </span>
+      <button>Contact me</button>
+    </form>
 
-        <div>
-            <img src="/shared/assets/images/white/linkedin.svg"/>
-            <img src="/shared/assets/images/white/github.svg"/>
-            <img src="/shared/assets/images/white/mail.svg"/>
-            <img src="/shared/assets/images/white/phone.svg"/>
-            <img src="/shared/assets/images/white/cv.svg"/>
-        </div>
+    <div class="icons">
+      <img src="/shared/assets/images/white/linkedin.svg"/>
+      <img src="/shared/assets/images/white/github.svg"/>
+      <img src="/shared/assets/images/white/mail.svg"/>
+      <img src="/shared/assets/images/white/phone.svg"/>
+      <img src="/shared/assets/images/white/cv.svg"/>
     </div>
-
+  </div>
+  <div class="footer">
+    <span></span>
+    <p>© Pierre Boucher</p>
+    <a>{{'contact.title' | translate}}</a>
+  </div>
 </section>

@@ -1,5 +1,5 @@
-import { AfterViewInit, Component } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import {Component} from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
@@ -30,6 +30,6 @@ export class AppComponent {
       document.getElementById('french')?.classList.add("disabled");
       this.translate.setDefaultLang(this.languageUsed);
     }
-  } 
+  }
 
 }
