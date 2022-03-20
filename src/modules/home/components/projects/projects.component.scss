@@ -5,8 +5,8 @@ main {
   top:0;
 }
 
-section {
-  min-width: 100vw;
+.project-content {
+  min-width: 50vw;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@ section {
   font-size: 4ch;
 }
 
-section:nth-child(even) {
+.project-content:nth-child(even) {
   background-color: teal;
   color: white;
 }
