@@ -12,7 +12,8 @@ section {
     height: 85%;
   }
 
-  h1, p {
+  h1,
+  p {
     color: white;
   }
 
@@ -51,7 +52,7 @@ section {
       -moz-appearance: none;
       appearance: none;
 
-      border: 2px solid #EDEDED;
+      border: 2px solid #ededed;
       box-sizing: border-box;
       border-radius: 2px;
       background: #423786;
@@ -61,7 +62,7 @@ section {
     }
 
     .check:checked {
-      background: #EDEDED;
+      background: #ededed;
     }
 
     span {

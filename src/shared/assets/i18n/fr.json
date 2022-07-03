@@ -1,12 +1,12 @@
 {
-    "home": {
-        "title": "Pierre Boucher",
-        "job": "développeur"
-    },
-    "about": {
-        "title":"Je suis Pierre, jeune développeur aspirant à devenir un leader technique.",
-        "under-title": "Le développement est pour moi une passion dans laquelle je m'épanouis. C'est une pratique que j'ai découverte au collège via le site zéro et poussée jusqu'en école d'ingénieur où j'ai été diplômé et plein de ressources.",
-        "first-content": "Pendant mes années en école d’ingénieur à l’EPSI, j’ai pu faire de l’alternance pendant trois ans avec Sopra Steria en tant que développeur Full Stack pour le compte de la SNCF. J’y ai donc appris à développer des applications web via Angular, tout en gardant une vision back en apprenant Java. C’était pour moi très complexe au début étant donné qu’une bonne qualité de code était requise. Mais j’ai adoré ça, j’ai adoré apprendre des choses et côtoyé des passionnés. C’est ainsi qu'en voyant leurs profils, j’ai eu envie d’être à leurs places et devenir une personne clé au développement d'applications pour l’entreprise.",
-        "second-content": "Aimant accompagner les gens dans leurs projets, je me suis lancé comme mentor pour faire découvrir le monde de la programmation aux étudiants. C'est pour moi une expérience qui me permet de valider le fait que je veux transmettre mon savoir en accentuant sur la vulgarisation afin de ne laisser personne de côté."
-    }
+  "home": {
+    "title": "Pierre Boucher",
+    "job": "développeur"
+  },
+  "about": {
+    "title": "Je suis Pierre, jeune développeur aspirant à devenir un leader technique.",
+    "under-title": "Le développement est pour moi une passion dans laquelle je m'épanouis. C'est une pratique que j'ai découverte au collège via le site zéro et poussée jusqu'en école d'ingénieur où j'ai été diplômé et plein de ressources.",
+    "first-content": "Pendant mes années en école d’ingénieur à l’EPSI, j’ai pu faire de l’alternance pendant trois ans avec Sopra Steria en tant que développeur Full Stack pour le compte de la SNCF. J’y ai donc appris à développer des applications web via Angular, tout en gardant une vision back en apprenant Java. C’était pour moi très complexe au début étant donné qu’une bonne qualité de code était requise. Mais j’ai adoré ça, j’ai adoré apprendre des choses et côtoyé des passionnés. C’est ainsi qu'en voyant leurs profils, j’ai eu envie d’être à leurs places et devenir une personne clé au développement d'applications pour l’entreprise.",
+    "second-content": "Aimant accompagner les gens dans leurs projets, je me suis lancé comme mentor pour faire découvrir le monde de la programmation aux étudiants. C'est pour moi une expérience qui me permet de valider le fait que je veux transmettre mon savoir en accentuant sur la vulgarisation afin de ne laisser personne de côté."
+  }
 }

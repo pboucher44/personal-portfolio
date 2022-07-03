@@ -1,17 +1,18 @@
-main {
-  overflow-x: hidden;
+div {
+  height: 100%;
   display: flex;
-  position: sticky;
-  top:0;
 }
 
-.project-content {
-  min-width: 50vw;
-  min-height: 100vh;
+#container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 4ch;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+  margin-left: 25%;
+}
+
+.project-content-main {
+  min-width: 50%;
 }
 
 .project-content:nth-child(even) {

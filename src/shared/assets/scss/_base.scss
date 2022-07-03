@@ -1,74 +1,76 @@
-html, body {
-    box-sizing: border-box;
-    height: 100%;
-    margin: 0;
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    background-color: var(--color-secondary);
+  background-color: var(--color-secondary);
+  overflow-x: hidden;
 }
 
 h1 {
-    font-family: radio-grotesk;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 7.5vh;
-    height: fit-content;
-    line-height: 9vh;
+  font-family: radio-grotesk, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 7.5vh;
+  height: fit-content;
+  line-height: 9vh;
 
-    letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
 
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 h2 {
-    font-family: radio-grotesk;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 7.5vh;
-    height: fit-content;
-    line-height: 8vh;
+  font-family: radio-grotesk, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 7.5vh;
+  height: fit-content;
+  line-height: 8vh;
 
-    letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
 
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 h3 {
-    font-family: radio-grotesk;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 4.8vh;
-    height: fit-content;
-    line-height: 5.7vh;
+  font-family: radio-grotesk, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 4.8vh;
+  height: fit-content;
+  line-height: 5.7vh;
 
-    letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
 
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 h4 {
-    font-family: radio-grotesk;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.2vh;
-    height: fit-content;
-    line-height: 3.8vh;
+  font-family: radio-grotesk, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.2vh;
+  height: fit-content;
+  line-height: 3.8vh;
 
-    letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
 
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 p {
-    font-family: radio-grotesk;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.6vh;
-    height: fit-content;
-    line-height: 1.9vh;
+  font-family: radio-grotesk, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6vh;
+  height: fit-content;
+  line-height: 1.9vh;
 
-    letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
 
-    color: var(--color-primary);
+  color: var(--color-primary);
 }

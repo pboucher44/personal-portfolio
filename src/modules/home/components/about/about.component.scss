@@ -14,7 +14,9 @@ section {
     display: flex;
     flex-direction: column;
 
-    h2, h4, p {
+    h2,
+    h4,
+    p {
       color: var(--color-secondary);
     }
 

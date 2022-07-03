@@ -1,21 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
-    font-family: 'radio-grotesk';
-    src: url("/shared/assets/font/PPRadioGrotesk-Light.woff") format('truetype');
-    font-weight: 300;
+  font-family: "radio-grotesk";
+  src: url("/shared/assets/font/PPRadioGrotesk-Light.woff") format("truetype");
+  font-weight: 300;
 }
 
 @font-face {
-    font-family: 'radio-grotesk';
-    src: url("/shared/assets/font/PPRadioGrotesk-Regular.woff") format('truetype');
-    font-weight: 400;
+  font-family: "radio-grotesk";
+  src: url("/shared/assets/font/PPRadioGrotesk-Regular.woff") format("truetype");
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: 'radio-grotesk';
-    src: url("/shared/assets/font/PPRadioGrotesk-Bold.woff") format('truetype');
-    font-weight: 600;
+  font-family: "radio-grotesk";
+  src: url("/shared/assets/font/PPRadioGrotesk-Bold.woff") format("truetype");
+  font-weight: 600;
 }
 
-@import './shared/assets/scss/variable';
-@import './shared/assets/scss/base';
+@import "./shared/assets/scss/variable";
+@import "./shared/assets/scss/base";
