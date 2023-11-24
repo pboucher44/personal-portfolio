@@ -1,14 +1,8 @@
 <div id="container">
-  <div class="project-content-main">
-    <h1>Beep</h1>
-  </div>
-  <div class="project-content-main">
-    <h1>Boop</h1>
-  </div>
-  <div class="project-content-main">
-    <h1>Boooom</h1>
-  </div>
-  <div class="project-content-main">
-    <h1>The End</h1>
+  <h2 id="projects-title">HERE ARE THE PROJECTS IN WHICH I PARTICIPATE</h2>
+  <div>
+    <div class="project-content-main" *ngFor="let experience of listOfExperiences">
+      <app-experience [experience]="experience"></app-experience>
+    </div>
   </div>
 </div>

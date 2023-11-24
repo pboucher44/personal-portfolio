@@ -3,16 +3,34 @@ div {
   display: flex;
 }
 
+h2 {
+  width: 50%;
+}
+
 #container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   height: 100vh;
   margin-left: 25%;
+
+  h2 {
+    position: sticky;
+    width: 90%;
+  }
+
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+  }
 }
 
 .project-content-main {
   min-width: 50%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .project-content:nth-child(even) {
