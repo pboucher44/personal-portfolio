@@ -9,9 +9,6 @@ import { Project } from "../../../../shared/assets/model/project";
   styleUrls: ["./projects.component.scss"]
 })
 export class ProjectsComponent implements AfterViewInit {
-  constructor() {
-  }
-
   listOfExperiences: Project[] = [{
     title: "Velco",
     role: "Ingénieur full stack",
@@ -44,25 +41,28 @@ export class ProjectsComponent implements AfterViewInit {
     date: new Date("01/09/2021")
   }];
 
+  constructor() {
+  }
+
   ngAfterViewInit(): void {
     gsap.registerPlugin(ScrollTrigger);
 
-    let container = document.getElementById('container');
+    const container = document.getElementById("container");
 
     gsap.to(container, {
       x: () =>
         -(
           container!.scrollWidth * 1.25 -
           document.documentElement.clientWidth
-        ) + 'px',
-      ease: 'none',
+        ) + "px",
+      ease: "none",
       scrollTrigger: {
         trigger: container,
         invalidateOnRefresh: true,
         pin: true,
         scrub: 1,
-        end: () => '+=' + container!.offsetWidth,
-      },
+        end: () => "+=" + container!.offsetWidth
+      }
     });
   }
 }

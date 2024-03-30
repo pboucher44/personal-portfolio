@@ -1,7 +1,7 @@
 <div id="container">
   <h2 id="projects-title">HERE ARE THE PROJECTS IN WHICH I PARTICIPATE</h2>
   <div>
-    <div class="project-content-main" *ngFor="let experience of listOfExperiences">
+    <div *ngFor="let experience of listOfExperiences" class="project-content-main">
       <app-experience [experience]="experience"></app-experience>
     </div>
   </div>
